@@ -5,7 +5,7 @@ This repo contains the code of a password generator. It's useful program that ge
 You can choose whether use or not *__special symbols__* and *__numbers__* and configure the *__length of a password__* (4-20 characters).
 
 
-There is alse a feature that can copy generated password to your clipboard.
+There is also a feature that can copy generated password to your clipboard.
 
 
 
