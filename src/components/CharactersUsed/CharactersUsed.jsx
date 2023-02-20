@@ -1,9 +1,9 @@
-import styles from "./CharactersUsed.module.css";
 import CustomCheckbox from "../CustomCheckbox/CustomCheckbox";
+import styles from "./CharactersUsed.module.css";
 
 const CharactersUsed = ({ useNumbers, useSymbols, onChange}) => {
   return (
-    <div>
+    <div className={styles.charactersContainer}>
       <CustomCheckbox 
         title="Numbers"
         name="numbers"

@@ -6,6 +6,7 @@ import GeneratePasswordBtn from "../GeneratePasswordBtn/GeneratePasswordBtn";
 import PasswordOutput from "../PasswordOutput/PasswordOutput";
 
 import { generatePassword } from "../../utils/generatePassword";
+
 import styles from "./App.module.css";
 
 const App = () => {

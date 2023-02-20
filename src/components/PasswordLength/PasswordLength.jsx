@@ -3,7 +3,7 @@ import styles from "./PasswordLength.module.css";
 const PasswordLength = ({length, onChange}) => {
   return (
     <div>
-      <label className={styles.container}>
+      <label className={styles.length__container}>
         Length
         <input 
           type="number"
@@ -11,6 +11,7 @@ const PasswordLength = ({length, onChange}) => {
           max="20"
           value={length}
           onChange={(e) => onChange(e.target.value)}
+          className={styles.length__numInput}
         />
         <input 
           type="range"
