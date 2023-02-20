@@ -1,6 +1,13 @@
-This repo contains the code of a password generator. It's useful program that generate random password for your services.\ 
-You can choose whether use or not special symbols and numbers and configure the length of a password (4-20 characters).\
-There is alse a feature that can copy generated password to your clipboard.\
+# Password Generator
+This repo contains the code of a password generator. It's useful program that generate random password for your services.
+
+
+You can choose whether use or not *__special symbols__* and *__numbers__* and configure the *__length of a password__* (4-20 characters).
+
+
+There is alse a feature that can copy generated password to your clipboard.
+
+
 
 ![password-generator-interface](./docs/password_generator.png)
 
